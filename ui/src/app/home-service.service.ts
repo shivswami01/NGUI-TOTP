@@ -1,19 +1,39 @@
 import { Injectable } from '@angular/core';
-import {HttpClient} from "@angular/common/http";
-import { Observable } from 'rxjs';
+import {HttpClient, HttpErrorResponse} from "@angular/common/http";
+import { Observable,throwError } from 'rxjs';
+import { NotificationService } from 'src/services/notification.service';
+import { catchError } from 'rxjs/operators';
+import { ErrorHandlerService } from 'src/services/error-handler.service';
 @Injectable({
   providedIn: 'root'
 })
 export class HomeServiceService {
 
-  constructor(
-    private http: HttpClient
+  constructor(private readonly notificationService: NotificationService,
+    private http: HttpClient, private errorHandler: ErrorHandlerService
   ) { }
 
-  GetOTPFromUIAPIService(userId:string, selectedDateTime: string):Observable<any>
+  GetOTPFromUIAPIService(userId:string, selectedDateTime: string):Observable<number>
   {
-    let payload = this.http.get(`https://localhost:7166/api/home?userId=${userId}&sDate=${selectedDateTime}`);
+    debugger;
+   let payload =  this.http.get<any>(`https://localhost:7166/api/home?userId=${userId}&sDate=${selectedDateTime}`)
+    .pipe(catchError((error: HttpErrorResponse) => {
+      this.errorHandler.handleError('An error occurred while fetching data: ' + error.message);
+      alert(error.message);
+      return throwError(error);
+    }));
     console.log(payload);
     return payload;
+  }
+
+  OTPExpiredAcknowledge(otp :number):Observable<any>
+  {
+    let data =  {UserID: "Test1", OTP: otp}
+    return this.http.post(`https://localhost:7166/api/home/expireotp`,data)
+    .pipe(catchError((error: HttpErrorResponse) => {
+      this.errorHandler.handleError('An error occurred while fetching data: ' + error.message);
+      alert(error.message);
+      return throwError(error);
+    }));
   }
 }

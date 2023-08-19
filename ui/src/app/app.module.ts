@@ -28,15 +28,21 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatDialogModule} from '@angular/material/dialog';
 import { OtpDialogComponent } from './home/otp-dialog/otp-dialog.component';
 import {MatDividerModule} from '@angular/material/divider';
+import {MatSnackBarModule} from '@angular/material/snack-bar';
+import { NotificationComponent } from './shared/notification/notification.component';
+import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { ErrorInterceptorService } from '../services/error-interceptor.service'
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     FooterComponent,
     NavbarComponent,
-    OtpDialogComponent
+    OtpDialogComponent,
+    NotificationComponent
   ],
   imports: [
+    MatSnackBarModule,
     MatDividerModule,
     MatDialogModule,
     MatToolbarModule,
@@ -64,7 +70,11 @@ import {MatDividerModule} from '@angular/material/divider';
     AppRoutingModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [ {
+    provide: HTTP_INTERCEPTORS,
+    useClass: ErrorInterceptorService,
+    multi: true
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

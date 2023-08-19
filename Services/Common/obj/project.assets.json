@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Interview\\assesment\\Services\\Common\\Common.csproj",
+      "projectUniqueName": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\Common\\Common.csproj",
       "projectName": "Common",
-      "projectPath": "D:\\Interview\\assesment\\Services\\Common\\Common.csproj",
+      "projectPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\Common\\Common.csproj",
       "packagesPath": "C:\\Users\\shivk.ONS-UNIVERSAL-1\\.nuget\\packages\\",
-      "outputPath": "D:\\Interview\\assesment\\Services\\Common\\obj\\",
+      "outputPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\Common\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shivk.ONS-UNIVERSAL-1\\AppData\\Roaming\\NuGet\\NuGet.Config",

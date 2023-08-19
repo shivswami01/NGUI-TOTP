@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BusinessLogic.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,12 +11,16 @@ namespace UI.APIService.Test
     [TestClass]
     public class HomeControllerTest
     {
+        private IUserListBLL userData;
+        public HomeControllerTest(IUserListBLL userData) 
+        { this.userData = userData; }
+
         [TestMethod]
         public void TestOTPNumber()
         {
-            HomeController homeController = new HomeController();
+            HomeController homeController = new HomeController(this.userData);
 
-            string otpNumber = homeController.GetOTP("Test",DateTime.Now.ToShortDateString());
+            string otpNumber = homeController.GetOTP("Test1",DateTime.Now.ToShortDateString());
 
             Assert.IsNotNull(otpNumber);
         }

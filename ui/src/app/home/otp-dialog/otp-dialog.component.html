@@ -9,10 +9,11 @@
     <mat-divider></mat-divider>
   </mat-card-content>
   <mat-card-actions style="float: right;">
-    <button mat-button (click)="Submit()">Ok </button>
-    <button mat-button (click)="Close()">Close</button>
+    <button mat-button (click)="submit()">Ok </button>
+    <button mat-button (click)="close()">Close</button>
   </mat-card-actions>
   <mat-card-footer>
-    <mat-progress-bar mode="indeterminate"></mat-progress-bar>
+    <span>Time Left : {{timeLeft}}</span>
+    <mat-progress-bar mode="determinate" value="{{progressBar}}"></mat-progress-bar>
   </mat-card-footer>
 </mat-card>

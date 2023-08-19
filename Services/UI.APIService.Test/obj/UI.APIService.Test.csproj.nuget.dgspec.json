@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Interview\\assesment\\Services\\UI.APIService.Test\\UI.APIService.Test.csproj": {}
+    "D:\\Interview\\assesment\\assesment-vertiv\\Services\\UI.APIService.Test\\UI.APIService.Test.csproj": {}
   },
   "projects": {
-    "D:\\Interview\\assesment\\Services\\BusinessLogic\\BusinessLogic.csproj": {
+    "D:\\Interview\\assesment\\assesment-vertiv\\Services\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Interview\\assesment\\Services\\BusinessLogic\\BusinessLogic.csproj",
+        "projectUniqueName": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "D:\\Interview\\assesment\\Services\\BusinessLogic\\BusinessLogic.csproj",
+        "projectPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\BusinessLogic\\BusinessLogic.csproj",
         "packagesPath": "C:\\Users\\shivk.ONS-UNIVERSAL-1\\.nuget\\packages\\",
-        "outputPath": "D:\\Interview\\assesment\\Services\\BusinessLogic\\obj\\",
+        "outputPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shivk.ONS-UNIVERSAL-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Interview\\assesment\\Services\\Common\\Common.csproj": {
-                "projectPath": "D:\\Interview\\assesment\\Services\\Common\\Common.csproj"
+              "D:\\Interview\\assesment\\assesment-vertiv\\Services\\Common\\Common.csproj": {
+                "projectPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\Common\\Common.csproj"
               },
-              "D:\\Interview\\assesment\\Services\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\Interview\\assesment\\Services\\DataAccess\\DataAccess.csproj"
+              "D:\\Interview\\assesment\\assesment-vertiv\\Services\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\DataAccess\\DataAccess.csproj"
               }
             }
           }
@@ -66,14 +66,14 @@
         }
       }
     },
-    "D:\\Interview\\assesment\\Services\\Common\\Common.csproj": {
+    "D:\\Interview\\assesment\\assesment-vertiv\\Services\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Interview\\assesment\\Services\\Common\\Common.csproj",
+        "projectUniqueName": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "D:\\Interview\\assesment\\Services\\Common\\Common.csproj",
+        "projectPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\shivk.ONS-UNIVERSAL-1\\.nuget\\packages\\",
-        "outputPath": "D:\\Interview\\assesment\\Services\\Common\\obj\\",
+        "outputPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shivk.ONS-UNIVERSAL-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -121,14 +121,14 @@
         }
       }
     },
-    "D:\\Interview\\assesment\\Services\\DataAccess\\DataAccess.csproj": {
+    "D:\\Interview\\assesment\\assesment-vertiv\\Services\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Interview\\assesment\\Services\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\Interview\\assesment\\Services\\DataAccess\\DataAccess.csproj",
+        "projectPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\shivk.ONS-UNIVERSAL-1\\.nuget\\packages\\",
-        "outputPath": "D:\\Interview\\assesment\\Services\\DataAccess\\obj\\",
+        "outputPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shivk.ONS-UNIVERSAL-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -145,8 +145,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Interview\\assesment\\Services\\Common\\Common.csproj": {
-                "projectPath": "D:\\Interview\\assesment\\Services\\Common\\Common.csproj"
+              "D:\\Interview\\assesment\\assesment-vertiv\\Services\\Common\\Common.csproj": {
+                "projectPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\Common\\Common.csproj"
               }
             }
           }
@@ -180,14 +180,14 @@
         }
       }
     },
-    "D:\\Interview\\assesment\\Services\\UI.APIService.Test\\UI.APIService.Test.csproj": {
+    "D:\\Interview\\assesment\\assesment-vertiv\\Services\\UI.APIService.Test\\UI.APIService.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Interview\\assesment\\Services\\UI.APIService.Test\\UI.APIService.Test.csproj",
+        "projectUniqueName": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\UI.APIService.Test\\UI.APIService.Test.csproj",
         "projectName": "UI.APIService.Test",
-        "projectPath": "D:\\Interview\\assesment\\Services\\UI.APIService.Test\\UI.APIService.Test.csproj",
+        "projectPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\UI.APIService.Test\\UI.APIService.Test.csproj",
         "packagesPath": "C:\\Users\\shivk.ONS-UNIVERSAL-1\\.nuget\\packages\\",
-        "outputPath": "D:\\Interview\\assesment\\Services\\UI.APIService.Test\\obj\\",
+        "outputPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\UI.APIService.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shivk.ONS-UNIVERSAL-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -204,8 +204,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Interview\\assesment\\Services\\UI.APIService\\UI.APIService.csproj": {
-                "projectPath": "D:\\Interview\\assesment\\Services\\UI.APIService\\UI.APIService.csproj"
+              "D:\\Interview\\assesment\\assesment-vertiv\\Services\\UI.APIService\\UI.APIService.csproj": {
+                "projectPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\UI.APIService\\UI.APIService.csproj"
               }
             }
           }
@@ -257,14 +257,14 @@
         }
       }
     },
-    "D:\\Interview\\assesment\\Services\\UI.APIService\\UI.APIService.csproj": {
+    "D:\\Interview\\assesment\\assesment-vertiv\\Services\\UI.APIService\\UI.APIService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Interview\\assesment\\Services\\UI.APIService\\UI.APIService.csproj",
+        "projectUniqueName": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\UI.APIService\\UI.APIService.csproj",
         "projectName": "UI.APIService",
-        "projectPath": "D:\\Interview\\assesment\\Services\\UI.APIService\\UI.APIService.csproj",
+        "projectPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\UI.APIService\\UI.APIService.csproj",
         "packagesPath": "C:\\Users\\shivk.ONS-UNIVERSAL-1\\.nuget\\packages\\",
-        "outputPath": "D:\\Interview\\assesment\\Services\\UI.APIService\\obj\\",
+        "outputPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\UI.APIService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shivk.ONS-UNIVERSAL-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -281,8 +281,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Interview\\assesment\\Services\\BusinessLogic\\BusinessLogic.csproj": {
-                "projectPath": "D:\\Interview\\assesment\\Services\\BusinessLogic\\BusinessLogic.csproj"
+              "D:\\Interview\\assesment\\assesment-vertiv\\Services\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\BusinessLogic\\BusinessLogic.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rj7UKy7Q3Cz2UX0T7nZGmmF2PZoxzKON4h5os1ZmV0U2p/MIkLLmLBG7h4IW6PIscsmCq2obktCQ+wivPmyucA==",
+  "dgSpecHash": "RLWPHj71wXQUsc0H4U71b/RHTsiq+/H7cy7NxHFJ5dglYXwwhChroROrPOlifryecnufhrt6o1I9m0lNsWv4pg==",
   "success": true,
-  "projectFilePath": "D:\\Interview\\assesment\\Services\\UI.APIService.Test\\UI.APIService.Test.csproj",
+  "projectFilePath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\UI.APIService.Test\\UI.APIService.Test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shivk.ONS-UNIVERSAL-1\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
     "C:\\Users\\shivk.ONS-UNIVERSAL-1\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.1.1\\microsoft.aspnetcore.cors.2.1.1.nupkg.sha512",

@@ -1,6 +1,8 @@
 ﻿using BusinessLogic.Interfaces;
+using Common.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Emit;
 
 namespace UI.APIService.Controllers
 {
@@ -22,20 +24,23 @@ namespace UI.APIService.Controllers
             {
                 Random rand = new Random();
                 otpNumber = rand.Next(999999);
+                if (otpNumber.ToString().Length != 6)
+                {
+                    string otpNew = rand.Next(0, 1000000).ToString("D6");
+                    otpNumber = Convert.ToInt64(otpNew);
+                }
             }
             else
             {
                 otpNumber = -1;
             }
             return otpNumber.ToString();
-
         }
 
-        [HttpPost]
-        public string VerifyOTP(long otpNumber)
+        [HttpPost("expireotp")]
+        public IActionResult ExpireOTP([FromBody] ExpiredOTP expiredOTP)
         {
-            
-            return "Verified";
+            return Ok();
         }
 
         [NonAction]

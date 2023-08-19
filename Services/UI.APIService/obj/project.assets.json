@@ -1000,11 +1000,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Interview\\assesment\\Services\\UI.APIService\\UI.APIService.csproj",
+      "projectUniqueName": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\UI.APIService\\UI.APIService.csproj",
       "projectName": "UI.APIService",
-      "projectPath": "D:\\Interview\\assesment\\Services\\UI.APIService\\UI.APIService.csproj",
+      "projectPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\UI.APIService\\UI.APIService.csproj",
       "packagesPath": "C:\\Users\\shivk.ONS-UNIVERSAL-1\\.nuget\\packages\\",
-      "outputPath": "D:\\Interview\\assesment\\Services\\UI.APIService\\obj\\",
+      "outputPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\UI.APIService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shivk.ONS-UNIVERSAL-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1021,8 +1021,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Interview\\assesment\\Services\\BusinessLogic\\BusinessLogic.csproj": {
-              "projectPath": "D:\\Interview\\assesment\\Services\\BusinessLogic\\BusinessLogic.csproj"
+            "D:\\Interview\\assesment\\assesment-vertiv\\Services\\BusinessLogic\\BusinessLogic.csproj": {
+              "projectPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\BusinessLogic\\BusinessLogic.csproj"
             }
           }
         }

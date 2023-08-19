@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eiJbS4LeODnr6N2a79Y0yMmRdAZcxXwzrvfUObWUZELCo3bSmYzz796Lout95z44THWJbrcoVhSs6RjpxN8jlw==",
+  "dgSpecHash": "ICwZgbs/4GaJ+j8bFScSM5mbC/Rotfu7ppJw7Ji38COltJxKk/jq/Lzup1eh1unyQKJn76injOfUpyW33q2eYA==",
   "success": true,
-  "projectFilePath": "D:\\Interview\\assesment\\Services\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

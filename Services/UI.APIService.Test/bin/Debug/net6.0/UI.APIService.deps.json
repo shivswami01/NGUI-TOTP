@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "UI.APIService/1.0.0": {
         "dependencies": {
+          "BusinessLogic": "1.0.0",
           "Microsoft.AspNetCore.Cors": "2.1.1",
           "NLog": "5.2.3",
           "Swashbuckle.AspNetCore": "6.5.0"
@@ -132,7 +133,29 @@
       "System.Buffers/4.5.0": {},
       "System.Memory/4.5.1": {},
       "System.Runtime.CompilerServices.Unsafe/4.5.1": {},
-      "System.Text.Encodings.Web/4.5.0": {}
+      "System.Text.Encodings.Web/4.5.0": {},
+      "BusinessLogic/1.0.0": {
+        "dependencies": {
+          "Common": "1.0.0",
+          "DataAccess": "1.0.0"
+        },
+        "runtime": {
+          "BusinessLogic.dll": {}
+        }
+      },
+      "Common/1.0.0": {
+        "runtime": {
+          "Common.dll": {}
+        }
+      },
+      "DataAccess/1.0.0": {
+        "dependencies": {
+          "Common": "1.0.0"
+        },
+        "runtime": {
+          "DataAccess.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -294,6 +317,21 @@
       "sha512": "sha512-Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
       "path": "system.text.encodings.web/4.5.0",
       "hashPath": "system.text.encodings.web.4.5.0.nupkg.sha512"
+    },
+    "BusinessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DataAccess/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

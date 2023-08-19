@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "A/ycvEi+6fnQMw/C3k48q4qUf9s1IOrNFPSOGMTHCMGIjsXqj65DxIeL06ANElJpFcFDuTla2HmpFMck2pTtQA==",
+  "dgSpecHash": "KZc2d5BM2lkvwL2IvngNiyDzCzRVETlSmX2YzFn6ZGGZ3WZBzcMf1VyGjxOwtfwtfOCMTcIC4hf46oylwAz/Fw==",
   "success": true,
-  "projectFilePath": "D:\\Interview\\assesment\\Services\\BusinessLogic\\BusinessLogic.csproj",
+  "projectFilePath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\BusinessLogic\\BusinessLogic.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

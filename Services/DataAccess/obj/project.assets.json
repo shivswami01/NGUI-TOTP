@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Interview\\assesment\\Services\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "D:\\Interview\\assesment\\Services\\DataAccess\\DataAccess.csproj",
+      "projectPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\shivk.ONS-UNIVERSAL-1\\.nuget\\packages\\",
-      "outputPath": "D:\\Interview\\assesment\\Services\\DataAccess\\obj\\",
+      "outputPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shivk.ONS-UNIVERSAL-1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -53,8 +53,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Interview\\assesment\\Services\\Common\\Common.csproj": {
-              "projectPath": "D:\\Interview\\assesment\\Services\\Common\\Common.csproj"
+            "D:\\Interview\\assesment\\assesment-vertiv\\Services\\Common\\Common.csproj": {
+              "projectPath": "D:\\Interview\\assesment\\assesment-vertiv\\Services\\Common\\Common.csproj"
             }
           }
         }
