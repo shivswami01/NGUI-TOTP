@@ -1,0 +1,11 @@
+D:\Interview\assesment\Services\Common\bin\Debug\net6.0\Common.deps.json
+D:\Interview\assesment\Services\Common\bin\Debug\net6.0\Common.dll
+D:\Interview\assesment\Services\Common\bin\Debug\net6.0\Common.pdb
+D:\Interview\assesment\Services\Common\obj\Debug\net6.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Interview\assesment\Services\Common\obj\Debug\net6.0\Common.AssemblyInfoInputs.cache
+D:\Interview\assesment\Services\Common\obj\Debug\net6.0\Common.AssemblyInfo.cs
+D:\Interview\assesment\Services\Common\obj\Debug\net6.0\Common.csproj.CoreCompileInputs.cache
+D:\Interview\assesment\Services\Common\obj\Debug\net6.0\Common.dll
+D:\Interview\assesment\Services\Common\obj\Debug\net6.0\refint\Common.dll
+D:\Interview\assesment\Services\Common\obj\Debug\net6.0\Common.pdb
+D:\Interview\assesment\Services\Common\obj\Debug\net6.0\ref\Common.dll

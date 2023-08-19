@@ -1,0 +1,15 @@
+D:\Interview\assesment\Services\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+D:\Interview\assesment\Services\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\Interview\assesment\Services\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+D:\Interview\assesment\Services\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+D:\Interview\assesment\Services\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+D:\Interview\assesment\Services\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+D:\Interview\assesment\Services\DataAccess\bin\Debug\net6.0\DataAccess.dll
+D:\Interview\assesment\Services\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+D:\Interview\assesment\Services\DataAccess\bin\Debug\net6.0\Common.dll
+D:\Interview\assesment\Services\DataAccess\bin\Debug\net6.0\Common.pdb
+D:\Interview\assesment\Services\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+D:\Interview\assesment\Services\DataAccess\obj\Debug\net6.0\DataAccess.dll
+D:\Interview\assesment\Services\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+D:\Interview\assesment\Services\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+D:\Interview\assesment\Services\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
