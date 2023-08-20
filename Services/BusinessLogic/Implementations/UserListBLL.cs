@@ -20,5 +20,21 @@ namespace BusinessLogic.Implementations
         {
             return userDal.GetUserList();
         }
+
+        public bool ValidateUser(string userId)
+        {
+            bool result = false;
+            if (userId != string.Empty || userId != null)
+            {
+                var users = this.userDal.GetUserList();
+
+                var user = users.Where(x => x.UserId == userId).FirstOrDefault();
+                if (user != null)
+                {
+                    result = true;
+                }
+            }
+            return result;
+        }
     }
 }

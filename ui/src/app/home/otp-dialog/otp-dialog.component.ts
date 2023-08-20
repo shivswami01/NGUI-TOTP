@@ -12,6 +12,7 @@ export class OtpDialogComponent implements OnInit {
 
   longText:any;
   generatedOTP:any;
+
   constructor(
     public dialogRef: MatDialogRef<OtpDialogComponent>,
     @Inject(MAT_DIALOG_DATA) public data: DialogData,

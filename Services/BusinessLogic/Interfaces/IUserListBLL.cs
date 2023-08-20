@@ -10,5 +10,6 @@ namespace BusinessLogic.Interfaces
     public interface IUserListBLL
     {
         IList<Users> GetAllUserList();
+        bool ValidateUser(string userId);
     }
 }

@@ -20,7 +20,7 @@ namespace UI.APIService.Controllers
         {
             DateTime userSelectedDateTime = Common.Extenstion.GetDate(sDate);
             long otpNumber = 0;
-            if (ValidateUser(userId))
+            if (this.userData.ValidateUser(userId))
             {
                 Random rand = new Random();
                 otpNumber = rand.Next(999999);
@@ -41,23 +41,6 @@ namespace UI.APIService.Controllers
         public IActionResult ExpireOTP([FromBody] ExpiredOTP expiredOTP)
         {
             return Ok();
-        }
-
-        [NonAction]
-        public bool ValidateUser(string userId) 
-        {
-            bool result = false;
-            if(userId!= string.Empty || userId !=null)
-            {
-                var users = userData.GetAllUserList();
-
-                var user =  users.Where(x=>x.UserId == userId).FirstOrDefault();
-                if(user!=null)
-                {
-                    result = true;
-                }
-            }
-            return result;
         }
     }
 }

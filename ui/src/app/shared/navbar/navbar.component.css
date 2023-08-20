@@ -18,4 +18,6 @@
   display: flex;
   flex-direction: column;
 }
-
+.flexExpand {
+  flex: 1 1 auto;
+}

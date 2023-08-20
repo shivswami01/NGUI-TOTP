@@ -23,12 +23,12 @@ export class HomeComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
   submit():void
   {
    const userId = this.form.get("UserID")?.value;
     if(userId ==""  || userId == undefined)
     {
-
      this._snackBar.open("Pleaser enter valid user Id.","Close",{
       horizontalPosition: 'center',
       verticalPosition: 'top',
@@ -38,8 +38,6 @@ export class HomeComponent implements OnInit {
     }
    const { formattedDate, formattedTime } = this.formatDateAndTime(this.form.get("Date")?.value);
    const selectedDateTime = formattedDate + " " + formattedTime;
-   console.log(selectedDateTime);
-  debugger;
    if(selectedDateTime.includes("NaN") || selectedDateTime == undefined || selectedDateTime == "")
    {
     this._snackBar.open("Please enter valid date.","Close",{
@@ -50,7 +48,6 @@ export class HomeComponent implements OnInit {
     return;
    }
    try{
-    debugger;
     this.homeService.GetOTPFromUIAPIService(userId, selectedDateTime).subscribe(result=>{
       console.log(result);
       if(result ==-1)

@@ -15,7 +15,6 @@ export class HomeServiceService {
 
   GetOTPFromUIAPIService(userId:string, selectedDateTime: string):Observable<number>
   {
-    debugger;
    let payload =  this.http.get<any>(`https://localhost:7166/api/home?userId=${userId}&sDate=${selectedDateTime}`)
     .pipe(catchError((error: HttpErrorResponse) => {
       this.errorHandler.handleError('An error occurred while fetching data: ' + error.message);
