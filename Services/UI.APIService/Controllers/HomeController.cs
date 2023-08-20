@@ -22,8 +22,8 @@ namespace UI.APIService.Controllers
         [HttpGet]
         public string GetOTP(string userId, string sDate)
         {
-            DateTime userSelectedDateTime = Common.Extenstion.GetDate(sDate);
             long otpNumber = 0;
+            DateTime userSelectedDateTime = Common.Extenstion.GetDate(sDate);
             if (this.userData.ValidateUser(userId))
             {
                 Random rand = new Random();

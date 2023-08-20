@@ -9,21 +9,21 @@ using System.Text.Json.Nodes;
 using System.Threading.Tasks;
 using UI.APIService.Controllers;
 
-namespace UI.APIService.Test
+namespace UI.APIService.Test.Controllers
 {
     [TestClass]
     public class HomeControllerTest
     {
         private IUserListBLL userData;
-        public HomeControllerTest(IUserListBLL userData) 
+        public HomeControllerTest(IUserListBLL userData)
         { this.userData = userData; }
 
         [TestMethod]
         public void TestOTPNumber()
         {
-            HomeController homeController = new HomeController(this.userData);
+            HomeController homeController = new HomeController(userData);
 
-            string otpNumber = homeController.GetOTP("Test1",DateTime.Now.ToString("MM/dd/yyyy HH:mm:ss"));
+            string otpNumber = homeController.GetOTP("Test1", DateTime.Now.ToString("MM/dd/yyyy HH:mm:ss"));
 
             Assert.IsNotNull(otpNumber);
         }
