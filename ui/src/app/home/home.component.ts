@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
-import { HomeServiceService } from '../home-service.service';
+import { HomeServiceService } from '../../services/home-service.service';
 import {OtpDialogComponent} from "./otp-dialog/otp-dialog.component";
 import {MatDialog, MAT_DIALOG_DATA, MatDialogModule} from '@angular/material/dialog';
 import {MatSnackBar} from '@angular/material/snack-bar';
@@ -19,7 +19,6 @@ export class HomeComponent implements OnInit {
     UserID: new FormControl(''),
     Date: new FormControl(''),
   });
-
 
   ngOnInit(): void {
   }

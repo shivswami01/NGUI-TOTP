@@ -1,7 +1,7 @@
 import { Component, Inject, OnInit } from '@angular/core';
 import {MatDialog, MAT_DIALOG_DATA, MatDialogRef, MatDialogModule} from '@angular/material/dialog';
 import { DialogData } from '../DialogData';
-import { HomeServiceService } from 'src/app/home-service.service';
+import { HomeServiceService } from '../../../services/home-service.service';
 import {MatSnackBar} from '@angular/material/snack-bar';
 @Component({
   selector: 'app-otp-dialog',
