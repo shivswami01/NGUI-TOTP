@@ -49,7 +49,7 @@ export class HomeComponent implements OnInit {
    try{
     this.homeService.GetOTPFromUIAPIService(userId, selectedDateTime).subscribe(result=>{
       console.log(result);
-      if(result ==-1)
+      if(result == -1)
       {
         this._snackBar.open("User Id is not valid, please enter the valid User Id.","Close",{
           horizontalPosition: 'center',
@@ -58,7 +58,7 @@ export class HomeComponent implements OnInit {
         });
         return;
       }
-      if(result !=null)
+      if(result != null)
       {
         this.otp =result;
         const dialogRef = this.dialog.open(OtpDialogComponent, {
