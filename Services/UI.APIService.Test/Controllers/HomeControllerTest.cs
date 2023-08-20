@@ -14,14 +14,11 @@ namespace UI.APIService.Test.Controllers
     [TestClass]
     public class HomeControllerTest
     {
-        private IUserListBLL userData;
-        public HomeControllerTest(IUserListBLL userData)
-        { this.userData = userData; }
-
         [TestMethod]
         public void TestOTPNumber()
         {
-            HomeController homeController = new HomeController(userData);
+            IUserListBLL userListBLL = new BusinessLogic.Implementations.UserListBLL();
+            HomeController homeController = new HomeController(userListBLL);
 
             string otpNumber = homeController.GetOTP("Test1", DateTime.Now.ToString("MM/dd/yyyy HH:mm:ss"));
 
