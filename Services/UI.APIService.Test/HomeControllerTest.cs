@@ -1,8 +1,11 @@
 ﻿using BusinessLogic.Interfaces;
+using Common.Models;
+using OtpNet;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Nodes;
 using System.Threading.Tasks;
 using UI.APIService.Controllers;
 
@@ -20,7 +23,7 @@ namespace UI.APIService.Test
         {
             HomeController homeController = new HomeController(this.userData);
 
-            string otpNumber = homeController.GetOTP("Test1",DateTime.Now.ToShortDateString());
+            string otpNumber = homeController.GetOTP("Test1",DateTime.Now.ToString("MM/dd/yyyy HH:mm:ss"));
 
             Assert.IsNotNull(otpNumber);
         }

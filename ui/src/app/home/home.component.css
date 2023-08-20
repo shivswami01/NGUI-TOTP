@@ -31,3 +31,11 @@ background-color: red;
 display: flex;
 justify-content: flex-end;
 }
+.timer{
+  color:#BF40BF;
+  font-weight: bold;
+  position:absolute;
+  float: left;
+  top: 10px;
+  left: 50px;
+}

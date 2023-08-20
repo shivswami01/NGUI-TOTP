@@ -21,11 +21,13 @@ export class OtpDialogComponent implements OnInit {
   ) {
     this.generatedOTP = this.data.otp;
     console.log(data);
+    dialogRef.disableClose = true;
   }
 
   timeLeft: number = 30;
   progressBar :number = 10;
   interval:any;
+  istotpExpired:boolean= false;
 
   ngOnInit(): void {
     this.startTimer();
@@ -38,23 +40,28 @@ export class OtpDialogComponent implements OnInit {
       } else {
         this.pauseTimer();
         this.homeService.OTPExpiredAcknowledge(this.data.otp).subscribe(result=>{
+          if(this.istotpExpired==false)
           this._snackBar.open("OTP is expired, please regenerate the OTP.","Close",{
             horizontalPosition: 'center',
             verticalPosition: 'top',
           });
+          this.istotpExpired=true;
           this.generatedOTP = "- - - - - -";
         })
       }
     },1000)
   }
   pauseTimer() {
+
     clearInterval(this.interval);
   }
-    submit(){
-      this.dialogRef.close();
-    }
+    // submit(){
+    //   this.dialogRef.close();
+    // }
 
     close(){
+      this.pauseTimer();
+      this.istotpExpired = true;
       this.dialogRef.close();
     }
 

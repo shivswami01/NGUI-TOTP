@@ -8,7 +8,7 @@ namespace Common.Models
 {
     public class ExpiredOTP
     {
-        public string UserID { get; set; }
-        public long OTP { get; set; }
+        public string? UserID { get; set; }
+        public long? OTP { get; set; }
     }
 }

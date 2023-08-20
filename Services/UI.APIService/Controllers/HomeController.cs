@@ -1,8 +1,11 @@
 ﻿using BusinessLogic.Interfaces;
 using Common.Models;
 using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using OtpNet;
 using System.Reflection.Emit;
+using System.Text;
 
 namespace UI.APIService.Controllers
 {
@@ -11,7 +14,8 @@ namespace UI.APIService.Controllers
     public class HomeController : ControllerBase
     {
         private IUserListBLL userData;
-        public HomeController(IUserListBLL userData) {
+        public HomeController(IUserListBLL userData)
+        {
             this.userData = userData;
         }
 
@@ -42,5 +46,19 @@ namespace UI.APIService.Controllers
         {
             return Ok();
         }
+
+                #region TOTP Based OTP generation by using dll similar like google authendicator --pending implementation
+        [NonAction]
+        public string TOTPBySecretKey(string userSecretKey)
+        {
+            string result = string.Empty;
+            long totp = Common.Extenstion.TOTPGenerator(userSecretKey);
+            if (totp != 0)
+            {
+                result = totp.ToString().Trim();
+            }
+            return result;
+        }
+        #endregion
     }
 }

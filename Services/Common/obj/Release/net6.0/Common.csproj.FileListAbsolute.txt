@@ -9,3 +9,4 @@ D:\Interview\assesment\assesment-vertiv\Services\Common\obj\Release\net6.0\Commo
 D:\Interview\assesment\assesment-vertiv\Services\Common\obj\Release\net6.0\refint\Common.dll
 D:\Interview\assesment\assesment-vertiv\Services\Common\obj\Release\net6.0\Common.pdb
 D:\Interview\assesment\assesment-vertiv\Services\Common\obj\Release\net6.0\ref\Common.dll
+D:\Interview\assesment\assesment-vertiv\Services\Common\obj\Release\net6.0\Common.csproj.AssemblyReference.cache
