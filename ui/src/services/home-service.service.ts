@@ -25,13 +25,23 @@ export class HomeServiceService {
     return payload;
   }
 
-  OTPExpiredAcknowledge(otp :number):Observable<any>
+  OTPExpiredAcknowledge(userid:string, otp:number):Observable<any>
   {
-    let data =  {UserID: "Test1", OTP: otp}
-    return this.http.post(`https://localhost:7166/api/home/expireotp`,data)
+    let data =  {UserID: userid, OTP: otp}
+    return this.http.post(`https://localhost:7166/api/ManageOTP/Expireotp`,data)
     .pipe(catchError((error: HttpErrorResponse) => {
       this.errorHandler.handleError('An error occurred while fetching data: ' + error.message);
       alert(error.message);
+      return throwError(error);
+    }));
+  }
+
+  ValidateOTP(userid:string,otp:number):Observable<any>
+  {
+    let data =  {UserID: userid, OTP: otp}
+    return this.http.post(`https://localhost:7166/api/ManageOTP/ValidateOTP`,data)
+    .pipe(catchError((error: HttpErrorResponse) => {
+      this.errorHandler.handleError('An error occurred while fetching data: ' + error.message);
       return throwError(error);
     }));
   }

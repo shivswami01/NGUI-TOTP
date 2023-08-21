@@ -39,7 +39,7 @@ export class OtpDialogComponent implements OnInit {
         this.progressBar = this.progressBar+3;
       } else {
         this.pauseTimer();
-        this.homeService.OTPExpiredAcknowledge(this.data.otp).subscribe(result=>{
+        this.homeService.OTPExpiredAcknowledge(this.data.userid,this.data.otp).subscribe(result=>{
           if(this.istotpExpired==false)
           this._snackBar.open("OTP is expired, please regenerate the OTP.","Close",{
             horizontalPosition: 'center',

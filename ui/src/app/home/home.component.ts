@@ -47,9 +47,11 @@ export class HomeComponent implements OnInit {
           }
           if(result != null)
           {
+            debugger;
             this.otp =result;
+            localStorage.setItem("userId",userId);
             const dialogRef = this.dialog.open(OtpDialogComponent, {
-              data: {otp: result}
+              data: {userid:userId, otp: result, }
              });
             dialogRef.afterClosed().subscribe(result => {
             console.log('The dialog was closed');

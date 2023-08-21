@@ -31,7 +31,8 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatSnackBarModule} from '@angular/material/snack-bar';
 import { NotificationComponent } from './shared/notification/notification.component';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
-import { ErrorInterceptorService } from '../services/error-interceptor.service'
+import { ErrorInterceptorService } from '../services/error-interceptor.service';
+import { ValidateTotpComponent } from './validate-totp/validate-totp.component'
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +40,8 @@ import { ErrorInterceptorService } from '../services/error-interceptor.service'
     FooterComponent,
     NavbarComponent,
     OtpDialogComponent,
-    NotificationComponent
+    NotificationComponent,
+    ValidateTotpComponent
   ],
   imports: [
     MatSnackBarModule,

@@ -1,3 +1,4 @@
 export interface DialogData {
-  otp:number
+  otp:number;
+  userid: string;
 }

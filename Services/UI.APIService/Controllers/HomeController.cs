@@ -14,6 +14,7 @@ namespace UI.APIService.Controllers
     public class HomeController : ControllerBase
     {
         private IUserListBLL userData;
+       
         public HomeController(IUserListBLL userData)
         {
             this.userData = userData;
@@ -41,13 +42,7 @@ namespace UI.APIService.Controllers
             return otpNumber.ToString();
         }
 
-        [HttpPost("expireotp")]
-        public IActionResult ExpireOTP([FromBody] ExpiredOTP expiredOTP)
-        {
-            return Ok();
-        }
-
-                #region TOTP Based OTP generation by using dll similar like google authendicator --pending implementation
+        #region TOTP Based OTP generation by using dll similar like google authendicator --pending implementation
         [NonAction]
         public string TOTPBySecretKey(string userSecretKey)
         {

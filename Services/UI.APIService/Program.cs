@@ -28,8 +28,11 @@ namespace UI.APIService
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-            builder.Services.AddTransient<UserList>();
+           
+            builder.Services.AddScoped<UserList>();
+            builder.Services.AddScoped<ExpiredTOTPList>();
             builder.Services.AddScoped<IUserListBLL, UserListBLL>();
+            builder.Services.AddScoped<IExpiredOTPListBLL, ExpiredOTPListBLL>();
             
             var app = builder.Build();
 

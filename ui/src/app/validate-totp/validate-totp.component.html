@@ -1,0 +1,13 @@
+<mat-card>
+  <mat-card-title>Validate OTP</mat-card-title>
+  <mat-card-content>
+    <mat-form-field>
+      <mat-label>Enter OTP</mat-label>
+      <input type="text" [(ngModel)]="otp" matInput placeholder="Enter OTP"/>
+    </mat-form-field>
+
+  </mat-card-content>
+  <mat-card-actions>
+    <button type="submit" mat-raised-button (click)="validate()" color="primary">Submit OTP</button>
+  </mat-card-actions>
+</mat-card>
